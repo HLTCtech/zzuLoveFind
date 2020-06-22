@@ -232,7 +232,7 @@
 			"selectedIconPath": "static/images/tabBar/index_selected.png"
 		}, {
 			"pagePath": "pages/menu/menu",
-			"text": "点餐",
+			"text": "游廊",
 			"iconPath": "static/images/tabBar/drink.png",
 			"selectedIconPath": "static/images/tabBar/drink_selected.png"
 		}, {
