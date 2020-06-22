@@ -10,12 +10,12 @@
 		<view class="content">
 			<view class="entrance">
 				<view class="item" @tap="takein">
-					<image src="/static/images/index/zq.png" class="icon"></image>
-					<view class="title">自取</view>
+					<image src="/static/images/index/inSchool.png" class="icon"></image>
+					<view class="title">在校</view>
 				</view>
 				<view class="item" @tap="takeout">
-					<image src="/static/images/index/wm.png" class="icon"></image>
-					<view class="title">外卖</view>
+					<image src="/static/images/index/graduate.png" class="icon"></image>
+					<view class="title">已毕业</view>
 				</view>
 			</view>
 			<view class="info">
