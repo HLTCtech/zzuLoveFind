@@ -1,10 +1,13 @@
 <template>
 	<view class="container">
 		<view class="banner">
-			<image src="https://img-shop.qmimg.cn/s23107/2020/04/26/3eb7808bf105262604.jpg" mode="" class="bg"></image>
+			<image src="https://dbs-backup-1529989282690109.oss-cn-hangzhou.aliyuncs.com/zzuFL/index.png" mode="" class="bg"></image>
 			<view class="intro">
 				<view class="greet">您好，{{ isLogin ? member.nickname : '游客' }}</view>
-				<view class="note">一杯奶茶，一口软欧包，在奈雪遇见两种美好</view>
+				<view class="note">相信爱的年纪</view>
+				<view class="note">没能唱给你的歌曲</view>
+				<view class="note">让我一生中</view>
+				<view class="note">常常追忆</view>
 			</view>
 		</view>
 		<view class="content">
@@ -25,13 +28,13 @@
 						<text class="value">411</text>
 					</view>
 					<view class="bottom">
-						进入积分商城兑换奈雪券及周边好礼
+						进入积分商城兑换更多好礼
 						<view class="iconfont iconarrow-right"></view>
 					</view>
 				</view>
 				<view class="qrcode_section" @tap="memberCode">
 					<image src="/static/images/index/qrcode.png"></image>
-					<text>会员码</text>
+					<text>专属会员码</text>
 				</view>
 			</view>
 			<view class="navigators">
@@ -162,7 +165,7 @@ page {
 		position: absolute;
 		top: calc(50rpx + var(--status-bar-height));
 		left: 40rpx;
-		color: #FFFFFF;
+		color: #00BFFF;
 		display: flex;
 		flex-direction: column;
 		
