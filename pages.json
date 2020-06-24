@@ -13,6 +13,13 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			}
 		}, {
+			"path": "pages/index/hot",
+			"style": {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
 			"path": "pages/take-foods/take-foods",
 			"style": {
 				"navigationBarTitleText": "奈雪の茶",
@@ -231,7 +238,7 @@
 			"iconPath": "static/images/tabBar/index.png",
 			"selectedIconPath": "static/images/tabBar/index_selected.png"
 		}, {
-			"pagePath": "pages/menu/menu",
+			"pagePath": "pages/index/hot",
 			"text": "游廊",
 			"iconPath": "static/images/tabBar/drink.png",
 			"selectedIconPath": "static/images/tabBar/drink_selected.png"
