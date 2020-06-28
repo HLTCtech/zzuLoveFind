@@ -12,22 +12,23 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+	@import '~@/static/style/app.scss';
     @import '@/static/style/common.css';
 
-    page,
-    view {
-        display: flex;
-    }
+    // page,
+    // view {
+    //     display: flex;
+    // }
 
-    page {
-        display: flex;
-        min-height: 100%;
-        background-color: #EFEFEF;
-    }
+    // page {
+    //     display: flex;
+    //     min-height: 100%;
+    //     background-color: #EFEFEF;
+    // }
 
-    template {
-        display: flex;
-        flex: 1;
-    }
+    // template {
+    //     display: flex;
+    //     flex: 1;
+    // }
 </style>

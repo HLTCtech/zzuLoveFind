@@ -91,136 +91,19 @@
 </script>
 
 <style>
-	@font-face {
-		font-family: texticons;
-		font-weight: normal;
-		font-style: normal;
-		src: url('https://at.alicdn.com/t/font_702773_g9f89om4v3j.ttf') format('truetype');
+	view {
+	    display: flex;
 	}
 	
-	.index {
-		flex: 1;
-	    width: 750upx;
-	    min-height: 100vh;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	page {
+	    display: flex;
+	    min-height: 100%;
+	    background-color: #EFEFEF;
 	}
 	
-	.row {
-		flex-direction: row;
+	template {
+	    display: flex;
+	    flex: 1;
 	}
-	
-	.column {
-		flex-direction: column;
-	}
-	
-	.card {
-		position: relative;
-		width: 710upx;
-		margin: 20upx 20upx 20upx 20upx;
-		border-radius: 10upx;
-		overflow: hidden;
-		flex-direction: column;
-		background-color: #FFFFFF;
-	}
-	
-	.card-img {
-		width: 710upx;
-		height: 1065upx;
-	}
-	
-	.card-num {
-		color: #FFFFFF;
-		font-size: 13px;
-		text-align: center;
-	}
-	
-	.card-num-view {
-		background-color: #FF80AB;
-	    line-height: 1;
-	    display: inline-block;
-		padding: 3px 6px;
-	    color: #FFFFFF;
-	    font-size: 12px;
-	    text-align: center;
-		justify-content: center;
-	    align-items: center;
-		border-radius: 15px;
-		position: absolute;
-		top: 20upx;
-		right: 20upx;
-	}
-	
-	.card-bottm {
-		justify-content: center;
-		align-items: center;
-	}
-	
-	.card-share-view {
-		justify-content: center;
-		align-items: center;
-		padding: 14upx 0;
-		color: #FF80AB;
-		margin: 20upx 20upx 20upx;
-		font-size: 30upx;
-		font-family: texticons;
-	}
-	
-	.card-share-view:before {
-		content: '\e62d';
-	}
-	
-	.car-title-view {
-		flex: 1;
-		padding: 14upx 0upx 14upx 20upx;
-	}
-	
-	.card-title {
-		flex: 1;
-		font-size: 30upx;
-		text-align: left;
-		color: #555555;
-		text-overflow: ellipsis;
-		lines: 2;
-		display: -webkit-box;
-		white-space: normal;
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 2;
-		overflow: hidden;
-	}
-	
-	
-	.card-list2 {
-		width: 345upx;
-		margin: 20upx 0 20upx 20upx;
-	}
-	
-	.card-list2-img {
-		width: 345upx;
-		height: 317upx;
-	}
-	
-	.card-list2-num-view {
-		transform: scale(0.8);
-	    transform-origin: right;
-	}
-	
-	.card-list2-num {
-		font-size: 22upx;
-	}
-	
-	.card-list2-title {
-		font-size: 26upx;
-	}
-	
-	
-	.loadMore {
-		font-size: 30upx;
-		color: #555;
-		margin-bottom: 20upx;
-	}
-	
 	
 </style>
