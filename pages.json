@@ -23,7 +23,7 @@
 		}, {
 			"path": "pages/take-foods/take-foods",
 			"style": {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "擦肩而过",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -245,7 +245,7 @@
 			"selectedIconPath": "static/images/tabBar/drink_selected.png"
 		}, {
 			"pagePath": "pages/take-foods/take-foods",
-			"text": "关注",
+			"text": "擦肩",
 			"iconPath": "static/images/tabBar/take.png",
 			"selectedIconPath": "static/images/tabBar/take_selected.png"
 		}, {

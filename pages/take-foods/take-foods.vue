@@ -1,13 +1,14 @@
 <template>
 	<view class="container">
-		<view v-if="!Object.keys(order).length" class="d-flex w-100 h-100 flex-column just-content-center align-items-center">
-			<image src="/static/images/loading.gif" class="drinks-img"></image>
+		<view v-if="!Object.keys(order).length" class="d-flex w-100 flex-column just-content-center align-items-center" style="margin-top: 100rpx;">
+			<image src="/static/images/searching.gif" class="drinks-img"></image>
 			<view class="tips d-flex flex-column align-items-center font-size-base text-color-assist">
-				<view>您还没有点单</view>
-				<view>快去犒劳一下自己吧~</view>
+				<view>刚刚擦肩而过的Ta让你心跳漏了一拍？</view>
+				<view>想去要微信又不知道怎么开口？</view>
+				<view>如果Ta恰好也注意到你了呢？</view>
 			</view>
-			<button type="primary" class="drink-btn" size="default" @tap="menu">去点餐</button>
-			<view class="font-size-sm text-color-primary" @tap="orders">查看历史订单</view>
+			<button type="primary" class="drink-btn" size="default" @tap="menu">去试试</button>
+			<!-- <view class="font-size-sm text-color-primary" @tap="orders">查看配对列表</view> -->
 		</view>
 		<template v-else>
 			<view class="order-box">
@@ -221,8 +222,8 @@
 	}
 	
 	.drinks-img {
-		width: 260rpx;
-		height: 260rpx;
+		width: 600rpx;
+		height: 600rpx;
 	}
 	
 	.tips {

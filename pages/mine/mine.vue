@@ -1,11 +1,11 @@
 <template>
 	<view class="container">
-		<view class="position-relative">
+		<view class="position-relative" style="height: 500rpx;">
 			<image src="https://img-shop.qmimg.cn/s16/images/2020/01/20/9a82219bedcae5c2.jpeg" class="bg"></image>
-			<button type="default" size="mini" class="hym-btn" @tap="memberCode">
+			<!-- <button type="default" size="mini" class="hym-btn" @tap="memberCode">
 				<image src="/static/images/mine/hym.png"></image>
 				<text>会员码</text>
-			</button>
+			</button> -->
 		</view>
 		
 		<view style="padding: 0 30rpx;">

@@ -1,13 +1,14 @@
 <template>
-	<view class="index">
+	<view class="index" style="margin-top: 300rpx;">
 		<block v-for="(list, index) in lists" :key="index">
 			<view class="row">
 				<view class="card card-list2" v-for="(item,key) in list" @click="goDetail(item)" :key="key">
 					<image class="card-img card-list2-img" :src="item.img_src"></image>
-					<text class="card-num-view card-list2-num-view">{{item.img_num}}P</text>
+					<!-- <text class="card-num-view card-list2-num-view">{{item.img_num}}P</text> -->
 					<view class="card-bottm row">
 						<view class="car-title-view row">
-							<text class="card-title card-list2-title">{{item.title}}</text>
+							<image src="/static/images/girls.png" class="iconMini"></image>
+							<text class="card-title card-list2-title" style="margin-left: 10rpx;">{{item.title}}</text>
 						</view>
 						<!-- <view @click.stop="share(item)" class="card-share-view"></view> -->
 					</view>
@@ -104,6 +105,11 @@
 	template {
 	    display: flex;
 	    flex: 1;
+	}
+	
+	.iconMini {
+		height: 30rpx;
+		width: 30rpx;
 	}
 	
 </style>
