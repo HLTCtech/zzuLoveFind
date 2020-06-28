@@ -15,9 +15,10 @@
 		}, {
 			"path": "pages/index/hot",
 			"style": {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "游廊",
 				"navigationBarTextStyle": "black",
-				"navigationBarBackgroundColor": "#ffffff"
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
 			}
 		}, {
 			"path": "pages/take-foods/take-foods",
