@@ -12,7 +12,22 @@ export default {
 };
 </script>
 
-<style lang="scss">
-/*每个页面公共css */
-@import '~@/static/style/app.scss';
+<style>
+    @import '@/static/style/common.css';
+
+    page,
+    view {
+        display: flex;
+    }
+
+    page {
+        display: flex;
+        min-height: 100%;
+        background-color: #EFEFEF;
+    }
+
+    template {
+        display: flex;
+        flex: 1;
+    }
 </style>

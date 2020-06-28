@@ -15,7 +15,7 @@
 		}, {
 			"path": "pages/index/hot",
 			"style": {
-				"navigationBarTitleText": "游廊",
+				"navigationBarTitleText": "照片墙",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff",
 				"enablePullDownRefresh": true
@@ -240,7 +240,7 @@
 			"selectedIconPath": "static/images/tabBar/index_selected.png"
 		}, {
 			"pagePath": "pages/index/hot",
-			"text": "游廊",
+			"text": "照片墙",
 			"iconPath": "static/images/tabBar/drink.png",
 			"selectedIconPath": "static/images/tabBar/drink_selected.png"
 		}, {
