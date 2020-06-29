@@ -13,7 +13,7 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			}
 		}, {
-			"path": "pages/index/hot",
+			"path": "pages/index/picWall",
 			"style": {
 				"navigationBarTitleText": "照片墙",
 				"navigationBarTextStyle": "black",
@@ -21,7 +21,7 @@
 				"enablePullDownRefresh": true
 			}
 		}, {
-			"path": "pages/take-foods/take-foods",
+			"path": "pages/meetYou/meetYou",
 			"style": {
 				"navigationBarTitleText": "擦肩而过",
 				"navigationBarTextStyle": "black",
@@ -239,12 +239,12 @@
 			"iconPath": "static/images/tabBar/index.png",
 			"selectedIconPath": "static/images/tabBar/index_selected.png"
 		}, {
-			"pagePath": "pages/index/hot",
+			"pagePath": "pages/index/picWall",
 			"text": "照片墙",
 			"iconPath": "static/images/tabBar/drink.png",
 			"selectedIconPath": "static/images/tabBar/drink_selected.png"
 		}, {
-			"pagePath": "pages/take-foods/take-foods",
+			"pagePath": "pages/meetYou/meetYou",
 			"text": "擦肩",
 			"iconPath": "static/images/tabBar/take.png",
 			"selectedIconPath": "static/images/tabBar/take_selected.png"
